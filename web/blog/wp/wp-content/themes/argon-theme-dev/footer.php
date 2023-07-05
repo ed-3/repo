@@ -39,23 +39,23 @@
 <?php } ?>
 <?php if (get_option('argon_math_render') == 'mathjax2') { /*Mathjax V2*/?>
 	<script type="text/x-mathjax-config" id="mathjax_v2_script">
-					MathJax.Hub.Config({
-						messageStyle: "none",
-						tex2jax: {
-							inlineMath: [["$", "$"], ["\\\\(", "\\\\)"]],
-							displayMath: [['$$','$$']],
-							processEscapes: true,
-							skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-						},
-						menuSettings: {
-							zoom: "Hover",
-							zscale: "200%"
-						},
-						"HTML-CSS": {
-							showMathMenu: "false"
-						}
-					});
-				</script>
+						MathJax.Hub.Config({
+							messageStyle: "none",
+							tex2jax: {
+								inlineMath: [["$", "$"], ["\\\\(", "\\\\)"]],
+								displayMath: [['$$','$$']],
+								processEscapes: true,
+								skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+							},
+							menuSettings: {
+								zoom: "Hover",
+								zscale: "200%"
+							},
+							"HTML-CSS": {
+								showMathMenu: "false"
+							}
+						});
+					</script>
 	<script
 		src="<?php echo get_option('argon_mathjax_v2_cdn_url') == '' ? '//cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_HTML' : get_option('argon_mathjax_v2_cdn_url'); ?>"></script>
 <?php } ?>
@@ -83,7 +83,8 @@
 	<link rel="stylesheet"
 		href="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/highlight/styles/<?php echo get_option('argon_code_theme') == '' ? 'vs2015' : get_option('argon_code_theme'); ?>.css">
 <?php } ?>
-
+<!-- MDUI -->
+<script src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/UI_Lib/MDUI/js/mdui.min.js"></script>
 </div>
 </div>
 <?php
