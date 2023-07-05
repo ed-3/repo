@@ -1,27 +1,4 @@
 <footer id="footer" class="site-footer card shadow-sm border-0">
-	<div>
-		<div class="mdui-card">
-			<div class="mdui-card-media">
-				<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/images/blog/yiyan.png" />
-				<div class="mdui-card-media-covered">
-					<div class="mdui-card-primary">
-						<div class="mdui-card-primary-title" id="txt">:D 获取中...</div>
-						<div class="mdui-card-primary-subtitle" id="author" style="text-align: right;">:D 获取中...</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<script>
-			fetch('https://v1.hitokoto.cn')
-				.then(response => response.json())
-				.then(data => {
-					document.getElementById('txt').innerHTML = data.hitokoto
-					document.getElementById('author').innerHTML = "——" + data.from
-				})
-				.catch(console.error)
-		</script>
-	</div>
 	<?php
 	echo get_option('argon_footer_html');
 	?>
@@ -62,23 +39,23 @@
 <?php } ?>
 <?php if (get_option('argon_math_render') == 'mathjax2') { /*Mathjax V2*/?>
 	<script type="text/x-mathjax-config" id="mathjax_v2_script">
-										MathJax.Hub.Config({
-											messageStyle: "none",
-											tex2jax: {
-												inlineMath: [["$", "$"], ["\\\\(", "\\\\)"]],
-												displayMath: [['$$','$$']],
-												processEscapes: true,
-												skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-											},
-											menuSettings: {
-												zoom: "Hover",
-												zscale: "200%"
-											},
-											"HTML-CSS": {
-												showMathMenu: "false"
-											}
-										});
-									</script>
+														MathJax.Hub.Config({
+															messageStyle: "none",
+															tex2jax: {
+																inlineMath: [["$", "$"], ["\\\\(", "\\\\)"]],
+																displayMath: [['$$','$$']],
+																processEscapes: true,
+																skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+															},
+															menuSettings: {
+																zoom: "Hover",
+																zscale: "200%"
+															},
+															"HTML-CSS": {
+																showMathMenu: "false"
+															}
+														});
+													</script>
 	<script
 		src="<?php echo get_option('argon_mathjax_v2_cdn_url') == '' ? '//cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_HTML' : get_option('argon_mathjax_v2_cdn_url'); ?>"></script>
 <?php } ?>
