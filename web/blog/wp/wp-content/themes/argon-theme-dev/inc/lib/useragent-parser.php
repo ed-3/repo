@@ -181,8 +181,8 @@ $GLOBALS['UA_ICON']['Chrome'] = $GLOBALS['UA_ICON']['Chrome OS'] = '<img src="ht
 $GLOBALS['UA_ICON']['Firefox'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/browserIcons/ForeFox.svg" width="20px" height="20px"/>';
 $GLOBALS['UA_ICON']['Safari'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/browserIcons/Safari.svg" width="20px" height="20px"/>';
 $GLOBALS['UA_ICON']['Edge'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/browserIcons/Edge.svg" width="20px" height="20px"/>';
-$GLOBALS['UA_ICON']['Windows'] = $GLOBALS['UA_ICON']['Windows Phone OS'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcon/Windows.svg" width="20px" height="20px"/>';
-$GLOBALS['UA_ICON']['Linux'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcon/Linux.svg" width="20px" height="20px"/>';
-$GLOBALS['UA_ICON']['Android'] = $GLOBALS['UA_ICON']['Android Browser'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcon/Android.svg" width="20px" height="20px"/>';
-$GLOBALS['UA_ICON']['Macintosh'] = $GLOBALS['UA_ICON']['iPhone'] = $GLOBALS['UA_ICON']['iPad'] = $GLOBALS['UA_ICON']['iPod Touch'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcon/iPad.svg" width="20px" height="20px"/>';
-$GLOBALS['UA_ICON']['Unknown'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcon/Unknown.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Windows'] = $GLOBALS['UA_ICON']['Windows Phone OS'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcons/Windows.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Linux'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcons/Linux.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Android'] = $GLOBALS['UA_ICON']['Android Browser'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcons/Android.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Macintosh'] = $GLOBALS['UA_ICON']['iPhone'] = $GLOBALS['UA_ICON']['iPad'] = $GLOBALS['UA_ICON']['iPod Touch'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcons/iPad.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Unknown'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/resources/svg/SystemIcons/Unknown.svg" width="20px" height="20px"/>';

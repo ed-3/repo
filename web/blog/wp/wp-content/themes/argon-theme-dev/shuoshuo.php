@@ -10,17 +10,28 @@ query_posts("post_type=shuoshuo&post_status=publish&posts_per_page=30&paged=$pag
 <?php get_header(); ?>
 
 <div class="page-information-card-container">
-	<div class="page-information-card card bg-gradient-secondary shadow-lg border-0" <?php if (isset($_GET['post_type'])){echo 'style="animation: none;"';}?>>
+	<div class="page-information-card card bg-gradient-secondary shadow-lg border-0" style="opacity: 0.85;">
 		<div class="card-body">
-			<h3 class="text-black"><?php _e('说说', 'argon');?></h3>
+			<h3 class="text-black" style="text-align: center;">🌸小窝🌸</h3>
 			<?php if (the_archive_description() != ''){ ?>
 				<p class="text-black mt-3">
 					<?php the_archive_description(); ?>
 				</p>
 			<?php } ?>
 			<p class="text-black mt-3 mb-0 opacity-8">
-				<i class="fa fa-quote-left mr-1"></i>
-				<?php echo wp_count_posts('shuoshuo','') -> publish; ?> <?php _e('条说说', 'argon');?>
+				<i class="fa fa-quote-left fa-2x"></i>
+				<?php
+				$post_id = get_the_ID();
+				$created_time = get_the_time('U', $post_id);
+				$current_time = time();
+
+				$time_diff = $current_time - $created_time;
+				$days_diff = floor($time_diff / 86400);
+
+				// 输出天数差
+				echo "在过去的 " . $days_diff . " 天里, 我一共碎碎杂念了 ". wp_count_posts('shuoshuo','') -> publish . " 句话 ";
+				?>
+				<i class="fa fa-quote-right fa-2x"></i>
 			</p>
 		</div>
 	</div>

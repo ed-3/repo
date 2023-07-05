@@ -478,7 +478,8 @@ if ($sidebar_width != 240) {
 		?>
 		<div id="banner_container_main" class="banner-container container text-center">
 			<?php if ($enable_banner_title_typing_effect != "true") { ?>
-				<div class="banner-title text-white"><span class="banner-title-inner">
+				<div class="banner-title text-white">
+					<span class="banner-title-inner">
 						<?php echo apply_filters('argon_banner_title_html', $banner_title); ?>
 					</span>
 					<?php echo get_option('argon_banner_subtitle') == '' ? '' : '<span class="banner-subtitle d-block">' . get_option('argon_banner_subtitle') . '</span>'; ?>
