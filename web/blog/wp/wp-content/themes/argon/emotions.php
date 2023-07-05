@@ -113,6 +113,6 @@
 				array('type' => 'sticker', 'code' => 'flower-utf', 'src' => $GLOBALS['assets_path'] . '/stickers/flower/14.jpg'),
 			),
 			'description' => 'Source: github.com/k4yt3x/flowerhd'
-		)
+		),
 	);
 ?>
