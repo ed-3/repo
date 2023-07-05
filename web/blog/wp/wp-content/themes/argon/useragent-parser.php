@@ -177,12 +177,12 @@ function argon_parse_user_agent( $u_agent = null ) {
 }
 
 //图标
-$GLOBALS['UA_ICON']['Chrome'] = $GLOBALS['UA_ICON']['Chrome OS'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browsericons/Chrome.svg';
-$GLOBALS['UA_ICON']['Firefox'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browsericons/ForeFox.svg';
-$GLOBALS['UA_ICON']['Safari'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browsericons/Safari.svg';
-$GLOBALS['UA_ICON']['Edge'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browsericons/Edge.svg';
-$GLOBALS['UA_ICON']['Windows'] = $GLOBALS['UA_ICON']['Windows Phone OS'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Windows.svg';
-$GLOBALS['UA_ICON']['Linux'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Linux.svg';
-$GLOBALS['UA_ICON']['Android'] = $GLOBALS['UA_ICON']['Android Browser'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Android.svg';
-$GLOBALS['UA_ICON']['Macintosh'] = $GLOBALS['UA_ICON']['iPhone'] = $GLOBALS['UA_ICON']['iPad'] = $GLOBALS['UA_ICON']['iPod Touch'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/iPad.svg';
-$GLOBALS['UA_ICON']['Unknown'] = 'https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Unknown.svg';
+$GLOBALS['UA_ICON']['Chrome'] = $GLOBALS['UA_ICON']['Chrome OS'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browserIcons/Chrome.svg" width="20px" height="20px" />';
+$GLOBALS['UA_ICON']['Firefox'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browserIcons/ForeFox.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Safari'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browserIcons/Safari.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Edge'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/browserIcons/Edge.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Windows'] = $GLOBALS['UA_ICON']['Windows Phone OS'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Windows.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Linux'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Linux.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Android'] = $GLOBALS['UA_ICON']['Android Browser'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Android.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Macintosh'] = $GLOBALS['UA_ICON']['iPhone'] = $GLOBALS['UA_ICON']['iPad'] = $GLOBALS['UA_ICON']['iPod Touch'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/iPad.svg" width="20px" height="20px"/>';
+$GLOBALS['UA_ICON']['Unknown'] = '<img src="https://cdn.jsdelivr.net/gh/ed-3/repo/web/blog/svg/SystemIcon/Unknown.svg" width="20px" height="20px"/>';
