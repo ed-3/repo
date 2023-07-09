@@ -10,7 +10,7 @@ query_posts("post_type=shuoshuo&post_status=publish&posts_per_page=30&paged=$pag
 <?php get_header(); ?>
 
 <div class="page-information-card-container">
-	<div class="page-information-card card bg-gradient-secondary shadow-lg border-0" style="opacity: 0.85;">
+	<div class="page-information-card card bg-gradient-secondary shadow-lg border-0">
 		<div class="card-body">
 			<h3 class="text-black" style="text-align: center;">🌸小窝🌸</h3>
 			<?php if (the_archive_description() != ''){ ?>
