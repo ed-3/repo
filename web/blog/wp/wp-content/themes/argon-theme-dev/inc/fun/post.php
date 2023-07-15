@@ -57,6 +57,8 @@ function get_additional_content_after_post(){
 	$res = str_replace("%link%", '<a href="' . get_permalink($postID) . '" target="_blank">' . get_permalink($postID) . '</a>', $res);
 	$res = str_replace("%title%", get_the_title(), $res);
 	$res = str_replace("%author%", get_the_author(), $res);
+	$res = str_replade("%post_date%", the_time('Y年n月d日 H:i:s'), $res);
+	$res = str_replade("%post_date%", the_modified_time('Y年n月d日 H:i:s'), $res);
 	return $res;
 }
 //页面分享预览图
@@ -438,4 +440,3 @@ function argon_get_ai_post_summary(): string {
 		'$content' => $content,
 	) ) );
 }
-
