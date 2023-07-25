@@ -113,6 +113,46 @@
 				array('type' => 'sticker', 'code' => 'flower-utf', 'src' => $GLOBALS['assets_path'] . '/stickers/flower/14.jpg'),
 			),
 			'description' => 'Source: github.com/k4yt3x/flowerhd'
+		),
+		array(
+			'groupname' => 'narkolilaladin',
+			'description' => 'Source: www.bilibili.com/read/cv15757763',
+			'list' => array(
+				array('type' => 'sticker', 'code' => '😊', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/1.gif'),
+				array('type' => 'sticker', 'code' => '👻', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/2.gif'),
+				array('type' => 'sticker', 'code' => '😈', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/3.gif'),
+				array('type' => 'sticker', 'code' => '🗿', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/4.gif'),
+				array('type' => 'sticker', 'code' => '😀', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/5.gif'),
+				array('type' => 'sticker', 'code' => '😂', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/6.gif'),
+				array('type' => 'sticker', 'code' => '😄', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/9.gif'),
+				array('type' => 'sticker', 'code' => '😅', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/10.gif'),
+				array('type' => 'sticker', 'code' => '😆', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/11.gif'),
+				array('type' => 'sticker', 'code' => '😇', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/12.gif'),
+				array('type' => 'sticker', 'code' => '😍', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/19.gif'),
+				array('type' => 'sticker', 'code' => '😎', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/20.gif'),
+				array('type' => 'sticker', 'code' => '😏', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/21.gif'),
+				array('type' => 'sticker', 'code' => '😔', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/22.gif'),
+				array('type' => 'sticker', 'code' => '😘', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/24.gif'),
+				array('type' => 'sticker', 'code' => '😗', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/25.gif'),
+				array('type' => 'sticker', 'code' => '😛', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/26.gif'),
+				array('type' => 'sticker', 'code' => '😜', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/27.gif'),
+				array('type' => 'sticker', 'code' => '😝', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/28.gif'),
+				array('type' => 'sticker', 'code' => '😞', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/29.gif'),
+				array('type' => 'sticker', 'code' => '😡', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/31.gif'),
+				array('type' => 'sticker', 'code' => '😤', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/32.gif'),
+				array('type' => 'sticker', 'code' => '😨', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/33.gif'),
+				array('type' => 'sticker', 'code' => '😭', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/34.gif'),
+				array('type' => 'sticker', 'code' => '😱', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/35.gif'),
+				array('type' => 'sticker', 'code' => '🙄', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/42.gif'),
+				array('type' => 'sticker', 'code' => '🤔', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/43.gif'),
+				array('type' => 'sticker', 'code' => '🤪', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/45.gif'),
+				array('type' => 'sticker', 'code' => '🤬', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/46.gif'),
+				array('type' => 'sticker', 'code' => '🤯', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/47.gif'),
+				array('type' => 'sticker', 'code' => '🥰', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/48.gif'),
+				array('type' => 'sticker', 'code' => '🥵', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/49.gif'),
+				array('type' => 'sticker', 'code' => '🥶', 'src' => $GLOBALS['$assets_path'] . '/stickers/narkolilaladin/50.gif'),
+				
+			)
 		)
 	);
 ?>

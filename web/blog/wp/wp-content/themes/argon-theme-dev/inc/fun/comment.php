@@ -1061,7 +1061,7 @@ function get_avatar_by_qqnumber($avatar){
 	$qqnumber = get_comment_meta($comment -> comment_ID, 'qq_number', true);
 	if (!empty($qqnumber)){
 		preg_match_all('/width=\'(.*?)\'/', $avatar, $preg_res);
-		$size = $preg_res[1][0];
+		$size = 40;
 		return "<img src='https://q1.qlogo.cn/g?b=qq&s=640&nk=" . $qqnumber ."' class='avatar avatar-" . $size . " photo' width='" . $size . "' height='" . $size . "'>";
 	}
 	return $avatar;

@@ -412,7 +412,8 @@ if ($sidebar_width != 240) {
 									'items_wrap' => '%3$s',
 									'depth' => 0,
 									'walker' => new toolbarMenuWalker()
-								));
+								)
+							);
 							echo "</ul>";
 						}
 						?>
